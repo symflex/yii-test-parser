@@ -35,7 +35,7 @@ class ParserController extends Controller
         }
     }
 
-    public function insertOrUpdateOffers(int $networkId, array $offers)
+    protected function insertOrUpdateOffers(int $networkId, array $offers)
     {
         $countries = [];
 
